@@ -1,0 +1,25 @@
+{
+  "name": "driver",
+  "version": "1.0.0",
+  "description": "学习驱动",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "曹斌鑫",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^7.6.1",
+    "@commitlint/config-angular": "^7.6.0",
+    "husky": "^2.3.0"
+  },
+  "scripts": {
+	"commitmsg": "commitlint -e $GIT_PARAMS"
+},
+"config": {
+	"commitizen": {
+		"path": "cz-customizable"
+	}
+}
+}
